@@ -1,0 +1,26 @@
+// @see https://coolors.co/6f1d1b-bb9457-432818-99582a-ffe6a7
+$persianPlum: #6F1D1B;
+$camel: #BB9457;
+$bistre: #432818;
+$windsorTan: #99582A;
+$bananaMania: #FFE6A7;
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+
+  .app-header, .app-footer {
+    background-color: $bistre;
+    color: $camel;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .app-main {
+    flex: 1;
+    background-color: $camel;
+    color: $bistre;
+    font-size: calc(10px + 2vmin);
+  }
+}

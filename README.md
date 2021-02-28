@@ -1,5 +1,13 @@
 # Coffee Brewing Buddy
 
+Web app for tracking coffee brewing
+
+[![Build Status](https://travis-ci.org/smourph/coffee-brewing-buddy.svg?branch=main)](https://travis-ci.org/smourph/coffee-brewing-buddy)
+[![Dependency Status](https://david-dm.org/smourph/coffee-brewing-buddy.svg)](https://david-dm.org/smourph/coffee-brewing-buddy)
+[![devDependency Status](https://david-dm.org/smourph/coffee-brewing-buddy/dev-status.svg)](https://david-dm.org/smourph/coffee-brewing-buddy#info=devDependencies)
+
+* [Run on github.io](https://smourph.github.io/coffee-brewing-buddy/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
