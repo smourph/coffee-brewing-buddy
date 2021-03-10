@@ -54,6 +54,9 @@
     ],
     "rules": {
         "react/react-in-jsx-scope": "off", // suppress errors for missing 'import React' in files
-        "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}] // allow jsx syntax in js files (for next.js project)
+        "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}], // allow jsx syntax in js files (for next.js project)
+        "no-console": ["warn", {
+            "allow": ["warn", "error"]
+        }]
     }
 }
