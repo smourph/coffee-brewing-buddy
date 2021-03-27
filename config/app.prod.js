@@ -1,6 +1,6 @@
 const config = {
   // General configs
-  titlePrefix: null
+  titlePrefix: null,
 };
 
 module.exports = config;

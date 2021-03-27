@@ -1,6 +1,6 @@
 const config = {
   // General configs
-  titlePrefix: '[TEST] '
+  titlePrefix: '[TEST] ',
 };
 
 module.exports = config;
