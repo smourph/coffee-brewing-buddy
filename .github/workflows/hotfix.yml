@@ -1,10 +1,10 @@
-# .github/workflows/release.yml
-name: Start a new release
+# .github/workflows/hotfix.yml
+name: Start a new hotfix
 
 on:
   push:
     branches:
-      - 'release/**'
+      - 'hotfix/**'
 
 jobs:
   start-new-release:
@@ -26,19 +26,19 @@ jobs:
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: 'Start release ${{ steps.get_version.outputs.version }}'
+          message: 'Start hotfix ${{ steps.get_version.outputs.version }}'
           add: '["package.json", "package-lock.json"]'
 
       - name: Create Release Pull Request
         uses: repo-sync/pull-request@v2
         with:
           destination_branch: main
-          pr_title: "Release ${{ steps.get_version.outputs.version }}"
+          pr_title: "Hotfix ${{ steps.get_version.outputs.version }}"
           github_token: ${{ github.token }}
 
       - name: Create Backport Pull Request
         uses: repo-sync/pull-request@v2
         with:
           destination_branch: dev
-          pr_title: "Release ${{ steps.get_version.outputs.version }} (backport)"
+          pr_title: "Hotfix ${{ steps.get_version.outputs.version }} (backport)"
           github_token: ${{ github.token }}
