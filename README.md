@@ -2,7 +2,7 @@
 
 Web app for tracking coffee brewing
 
-[![Build Status](https://travis-ci.org/smourph/coffee-brewing-buddy.svg?branch=main)](https://travis-ci.org/smourph/coffee-brewing-buddy)
+[![Build Status](https://travis-ci.com/smourph/coffee-brewing-buddy.svg?branch=dev)](https://travis-ci.com/smourph/coffee-brewing-buddy)
 [![Dependency Status](https://david-dm.org/smourph/coffee-brewing-buddy.svg)](https://david-dm.org/smourph/coffee-brewing-buddy)
 [![devDependency Status](https://david-dm.org/smourph/coffee-brewing-buddy/dev-status.svg)](https://david-dm.org/smourph/coffee-brewing-buddy#info=devDependencies)
 

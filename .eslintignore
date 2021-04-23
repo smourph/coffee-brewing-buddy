@@ -1,0 +1,9 @@
+# Ignore built files
+build
+
+src/config.js
+src/index.js
+src/reportWebVitals.js
+src/service-worker.js
+src/serviceWorkerRegistration.js
+src/setupTests.js
