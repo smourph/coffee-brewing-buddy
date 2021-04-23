@@ -19,15 +19,15 @@ jobs:
         uses: battila7/get-version-action@v2
 
       - name: Change version number in project
-        run: npm version ${{ steps.get_version.outputs.version-without-v }} --allow-same-version --no-git-tag-version
+        run: yarn version --new-version ${{ steps.get_version.outputs.version-without-v }} --no-git-tag-version
 
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
           author_name: github-actions
           author_email: github-actions@github.com
-          message: 'feat: start release ${{ steps.get_version.outputs.version }}'
-          add: '["package.json"]'
+          message: 'Start release ${{ steps.get_version.outputs.version }}'
+          add: '["package.json", "package-lock.json"]'
 
       - name: Create Release Pull Request
         uses: repo-sync/pull-request@v2
