@@ -1,3 +1,4 @@
+# .github/workflows/gh-pages.yml
 name: Deploy with gh-pages
 
 on:
@@ -16,6 +17,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
       - name: Update git config
         run: |
           git config user.name github-actions
