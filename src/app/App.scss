@@ -1,9 +1,17 @@
+// @see https://ricostacruz.com/til/css-media-query-breakpoints
+$width4: 480px;
+$width12: 1200px;
+
 // @see https://coolors.co/6f1d1b-bb9457-432818-99582a-ffe6a7
 $persianPlum: #6F1D1B;
 $camel: #BB9457;
 $bistre: #432818;
 $windsorTan: #99582A;
 $bananaMania: #FFE6A7;
+
+html {
+  font-size: 14px;
+}
 
 .app {
   display: flex;
@@ -14,13 +22,28 @@ $bananaMania: #FFE6A7;
   .app-header, .app-footer {
     background-color: $bistre;
     color: $camel;
-    font-size: calc(10px + 2vmin);
   }
 
   .app-main {
     flex: 1;
     background-color: $camel;
     color: $bistre;
-    font-size: calc(10px + 2vmin);
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: $width4) {
+  html {
+    // As "$width12 - $width4" = ...px, we may "/ 1px" to remove "px" unit
+    font-size: calc(14px + 6 * (100vw - #{$width4}) / #{($width12 - $width4) / 1px});
+  }
+}
+
+@media screen and (min-width: $width12) {
+  html {
+    font-size: 22px;
   }
 }
