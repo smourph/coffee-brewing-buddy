@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/coffee-brewing-buddy/static/css/main.8baa6382.chunk.css",
-    "main.js": "/coffee-brewing-buddy/static/js/main.ab589b84.chunk.js",
-    "main.js.map": "/coffee-brewing-buddy/static/js/main.ab589b84.chunk.js.map",
-    "runtime-main.js": "/coffee-brewing-buddy/static/js/runtime-main.4384f5bb.js",
-    "runtime-main.js.map": "/coffee-brewing-buddy/static/js/runtime-main.4384f5bb.js.map",
-    "static/js/2.55ddf048.chunk.js": "/coffee-brewing-buddy/static/js/2.55ddf048.chunk.js",
-    "static/js/2.55ddf048.chunk.js.map": "/coffee-brewing-buddy/static/js/2.55ddf048.chunk.js.map",
-    "static/js/3.f13ce7d1.chunk.js": "/coffee-brewing-buddy/static/js/3.f13ce7d1.chunk.js",
-    "static/js/3.f13ce7d1.chunk.js.map": "/coffee-brewing-buddy/static/js/3.f13ce7d1.chunk.js.map",
+    "main.css": "/coffee-brewing-buddy/static/css/main.349c8938.chunk.css",
+    "main.js": "/coffee-brewing-buddy/static/js/main.f6d1f852.chunk.js",
+    "main.js.map": "/coffee-brewing-buddy/static/js/main.f6d1f852.chunk.js.map",
+    "runtime-main.js": "/coffee-brewing-buddy/static/js/runtime-main.702bd137.js",
+    "runtime-main.js.map": "/coffee-brewing-buddy/static/js/runtime-main.702bd137.js.map",
+    "static/js/2.c6d0ba9d.chunk.js": "/coffee-brewing-buddy/static/js/2.c6d0ba9d.chunk.js",
+    "static/js/2.c6d0ba9d.chunk.js.map": "/coffee-brewing-buddy/static/js/2.c6d0ba9d.chunk.js.map",
+    "static/js/3.138f102f.chunk.js": "/coffee-brewing-buddy/static/js/3.138f102f.chunk.js",
+    "static/js/3.138f102f.chunk.js.map": "/coffee-brewing-buddy/static/js/3.138f102f.chunk.js.map",
     "index.html": "/coffee-brewing-buddy/index.html",
     "service-worker.js": "/coffee-brewing-buddy/service-worker.js",
     "service-worker.js.map": "/coffee-brewing-buddy/service-worker.js.map",
-    "static/css/main.8baa6382.chunk.css.map": "/coffee-brewing-buddy/static/css/main.8baa6382.chunk.css.map",
-    "static/js/2.55ddf048.chunk.js.LICENSE.txt": "/coffee-brewing-buddy/static/js/2.55ddf048.chunk.js.LICENSE.txt"
+    "static/css/main.349c8938.chunk.css.map": "/coffee-brewing-buddy/static/css/main.349c8938.chunk.css.map",
+    "static/js/2.c6d0ba9d.chunk.js.LICENSE.txt": "/coffee-brewing-buddy/static/js/2.c6d0ba9d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4384f5bb.js",
-    "static/js/2.55ddf048.chunk.js",
-    "static/css/main.8baa6382.chunk.css",
-    "static/js/main.ab589b84.chunk.js"
+    "static/js/runtime-main.702bd137.js",
+    "static/js/2.c6d0ba9d.chunk.js",
+    "static/css/main.349c8938.chunk.css",
+    "static/js/main.f6d1f852.chunk.js"
   ]
 }
