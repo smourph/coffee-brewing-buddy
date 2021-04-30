@@ -8,6 +8,7 @@ import { authInitialState, authReducer } from '../store/reducer/authReducer';
  * @property {Function} dispatch
  *
  * @typedef {Object} Auth
+ * @property {string} token
  * @property {?User} user
  *
  * @typedef {Object} User
